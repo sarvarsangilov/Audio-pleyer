@@ -8,6 +8,14 @@ Amplitude.init({
     visualization: 'michaelbromley_visualization',
     songs: [
       {
+        "name": "Amaliyot uchun",
+        "artist": "Sarvar Sangilov",
+        "album": "Amaliyot",
+        "url": "/audio/New music.mp3",
+        "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
+        "visualization": "michaelbromley_visualization"
+      },
+      {
         "name": "ФИКСЕТТА",
         "artist": "FixEye",
         "album": "YouTube",
@@ -190,3 +198,10 @@ function playlist_open() {
   elem.classList.toggle("open");
 }
 
+function playlist_close() {
+  var elem = document.getElementById("white-player-playlist-container"),
+      elem2 = document.getElementById("white-player");
+
+  elem2.classList.remove("close");
+  elem.classList.remove("open");
+}
