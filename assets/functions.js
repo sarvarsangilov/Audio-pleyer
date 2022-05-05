@@ -214,6 +214,23 @@ Amplitude.init({
         "url": "/audio/Yellow Fire - Я люблю Майнкрафт.mp3",
         "visualization": "michaelbromley_visualization",
         "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
+      },
+      {
+        "name": "БОЛЬШОЙ ПОТАНЦЕВАЛ",
+        "artist": "Домер",
+        "album": "Youtube",
+        "url": "/audio/Домер - БОЛЬШОЙ ПОТАНЦЕВАЛ.mp3",
+        "visualization": "michaelbromley_visualization",
+        "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
+      }
+      ,
+      {
+        "name": "Ash Ash",
+        "artist": "Joldasbek Abdihanov",
+        "album": "Youtube",
+        "url": "/audio/joldasbek-abdihanov---ash-ash.mp3",
+        "visualization": "michaelbromley_visualization",
+        "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
       }
     ],
   
